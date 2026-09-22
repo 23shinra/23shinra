@@ -17,7 +17,12 @@
         "width": 800,
         "height": 90
       },
-      "config": {},
+      "config": {
+        "animationType": "fade-in",
+        "animationPreviewKey": 6,
+        "customTitle": "23shinra",
+        "hideBorder": false
+      },
       "locked": false,
       "visible": true,
       "zIndex": 1,
@@ -11561,23 +11566,6 @@
       "instanceId": "widget_1790068638448_3"
     },
     {
-      "widgetId": "footer",
-      "name": "Footer Widget",
-      "position": {
-        "x": 0,
-        "y": 578
-      },
-      "size": {
-        "width": 800,
-        "height": 50
-      },
-      "config": {},
-      "locked": false,
-      "visible": true,
-      "zIndex": 6,
-      "instanceId": "widget_1790068638448_4"
-    },
-    {
       "widgetId": "tech-stack",
       "name": "Tech-stack Widget",
       "position": {
@@ -11606,6 +11594,40 @@
       "visible": true,
       "zIndex": 6,
       "instanceId": "widget_1790068638448_5"
+    },
+    {
+      "instanceId": "widget_1790069054826",
+      "widgetId": "minecraft-hud",
+      "name": "Minecraft-hud Widget",
+      "position": {
+        "x": 0,
+        "y": 578
+      },
+      "size": {
+        "width": 784,
+        "height": 210
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
+    },
+    {
+      "instanceId": "widget_1790069071175",
+      "widgetId": "contribution-snake",
+      "name": "Contribution-snake Widget",
+      "position": {
+        "x": 0,
+        "y": 804
+      },
+      "size": {
+        "width": 800,
+        "height": 250
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 7
     }
   ],
   "globalStyles": {
@@ -11620,11 +11642,11 @@
     "templateStyle": "native"
   },
   "metadata": {
-    "createdAt": "2026-09-22T09:36:12.480Z",
-    "updatedAt": "2026-09-22T09:36:12.480Z",
+    "createdAt": "2026-09-22T09:41:34.307Z",
+    "updatedAt": "2026-09-22T09:41:34.307Z",
     "schemaVersion": 1,
     "generatedBy": "manual",
-    "revision": "rev_1790069772481",
-    "publishedAt": "2026-09-22T09:36:12.480Z"
+    "revision": "rev_1790070094311",
+    "publishedAt": "2026-09-22T09:41:34.307Z"
   }
 }
